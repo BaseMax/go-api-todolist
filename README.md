@@ -10,17 +10,17 @@ A Web service Todo List (API) project designed by Go Language and using MongoDB 
 
 ## Routes
 
-- Get a single task
+- **Get a single task**
   - Route: `host:8000/api/v1/get/{_id}/`
   - Description: replace {_id} with mongodb document id
   - Method: GET
 
-- Get all tasks
+- **Get all tasks**
   - Route: `host:8000/api/v1/get/`
   - Description: return a list of tasks
   - Method: GET
 
-- Insert a new task
+- **Insert a new task**
   - Route: `host:8000/api/v1/craete/`
   - Description: send a JSON request with these fields:
   ```json
@@ -32,12 +32,12 @@ A Web service Todo List (API) project designed by Go Language and using MongoDB 
   ```
   - method: POST
 
-- Delete a task
+- **Delete a task**
   - Route: `host:8000/api/v1/delete/{_id}/`
   - Description: replace {_id} with desired task id returned in create response
   - Method: DELETE
 
-- Update/Edit a task
+- **Update/Edit a task**
   - Route: `host:8000/api/v1/update/{_id}`
   - Description: replace {_id} with desired task id and send a JSON in body same as create route.
   - Method: PUT
