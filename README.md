@@ -1,5 +1,13 @@
 # GO API Todo List
 
+A Web service Todo List (API) project designed by Go Language and using MongoDB as a database for storing and managing tasks.
+
+## Tools
+
+- ENV: https://github.com/joho/godotenv
+- MUX: https://github.com/gorilla/mux
+- Mongo: https://go.mongodb.org/mongo-driver
+
 ## Routes
 
 - Get a single task
@@ -46,12 +54,6 @@ You can run this app using 2 methods:
 2. Docker compose 
     1. Clone this repo.
     2. Run `docker-compose up -d` and wait for app to run on `localhost:8000`
-
-## Tools
-
-- ENV: https://github.com/joho/godotenv
-- MUX: https://github.com/gorilla/mux
-- Mongo: https://go.mongodb.org/mongo-driver
 
 ## Authors
 
