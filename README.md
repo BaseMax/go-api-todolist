@@ -59,3 +59,5 @@ You can run this app using 2 methods:
 
 - Amir
 - Max Base
+
+© Copyright 2022, Max Base
