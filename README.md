@@ -8,7 +8,7 @@ A Web service Todo List (API) project designed by Go Language and using MongoDB 
 - MUX: https://github.com/gorilla/mux
 - Mongo: https://go.mongodb.org/mongo-driver
 
-## Routes
+## API Routes
 
 - **Get a single task**
   - Route: `host:8000/api/v1/get/{_id}/`
