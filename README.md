@@ -46,12 +46,12 @@ A Web service Todo List (API) project designed by Go Language and using MongoDB 
 
 You can run this app using 2 methods:
 
-1. Manual
+1. **Manual**
     1. Clone this repo, rename `env.env` to `.env`, fill fields in `.env` file as desired
     2. Run `go build .`
     3. Run binary named `./go-api-todolist`
  
-2. Docker compose 
+2. **Docker compose**
     1. Clone this repo.
     2. Run `docker-compose up -d` and wait for app to run on `localhost:8000`
 
